@@ -118,6 +118,7 @@
         border-radius: 5px;
         cursor: pointer;
       }
+     
       .scroll-down::before,
       .scroll-down::after {
         content: "";
@@ -127,7 +128,7 @@
         height: 10px;
         width: 10px;
         transform: translate(-50%, -100%) rotate(45deg);
-        border: 2px solid rgb(247, 246, 246);
+        border:1px solid #FFFFFF;
         border-top: transparent;
         border-left: transparent;
         animation: scroll-down 1s ease-in-out infinite;
@@ -154,6 +155,7 @@
           opacity: 0;
         }
       }
+      
     .home .row{
         justify-content: center;
         align-items: center;
@@ -259,7 +261,7 @@ color: #EEEEEE;
 }
 .about .row .content{
     margin-left: 15rem;
-    margin-top: 5rem;
+    margin-top: .3rem;
 }
 .about .row .content p{
     font-family: 'Poppins';
@@ -279,34 +281,32 @@ color: rgba(238, 238, 238, 0.75);
     justify-content: center;
     align-items: center;
     margin-left: 15rem;
+    margin-top: 0;
 }
 
-.spring{
-    margin-top: 10rem;
-    
-} */
+
 .about-image {
     position: relative;
-    top: 70%;
+    top: 4%;
     left: 0;
+    margin-bottom: 5%;
   }
   
   .image1 {
-    
-    position: absolute;
-    top: 98% ;
+    bottom: 30%;
+    top: 5% ;
     left: 50%;
 
   }
   
   .image2 {
-    position: relative;
-    top: 30px;
-    left: 30px;
-   
+    position: absolute;
+    top: 50%;
+    left: 20%;
+   right: 70%;
   }
 .skills .skills-row{
-    margin-top: 1rem;
+    margin-top: 10rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -367,7 +367,10 @@ text-align: center;
 color: #EEEEEE;
 
 }
-
+.spring{
+    position:absolute;
+ margin-top: 30px;
+}
 
 
  .climb{
@@ -385,6 +388,7 @@ color: #EEEEEE;
  }
  .form{
     width: 100%;
+    margin-left:5rem ;
  }
  .message{
     margin-top: 50px;
@@ -411,7 +415,7 @@ color: #EEEEEE;
     align-items: flex-start;
         gap: 10px;
         padding: 1rem 2rem ;
-        width: 288px;
+        width: 270px;
         
         height: 59px;
         background: rgba(57, 62, 70, 0.5);
@@ -442,6 +446,9 @@ color: #EEEEEE;
     background-color: #7e91aa;
     opacity: .5;
     box-shadow: 0px 0px 80px rgba(66, 82, 82, 0.25);
+ }
+ .contact-image{
+    margin-left: 3rem;
  }
  .contact .contact-row{
     display: grid;
@@ -706,11 +713,11 @@ color: #EEEEEE;
                     left: 0;
                   }
                   
-                  .image1 {
+                  .person{
                     width: 100%;
-                    position: absolute;
+               position: absolute;
                     top: 1% ;
-                    left: 1%;
+                    left: 0%;
                 
                   }
                   .spring{
@@ -719,7 +726,8 @@ color: #EEEEEE;
                   .image2 {
                     position: relative;
                     top: 3px;
-                    left: 30px;
+                    left: 3px;
+                    
                    
                   }
                   .home-image2{
