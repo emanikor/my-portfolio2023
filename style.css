@@ -295,12 +295,11 @@ cursor: pointer;
     margin-top: 10rem;
 }
 .projects .projects-row {
-display: grid;
-grid-template-columns: repeat(2,1fr);
-column-gap: 1rem;
-margin-top: 5rem;
-justify-content: center;
-align-items: center;
+ display: flex;
+ justify-content: center;
+
+ align-items: center;
+ 
 }
 .projects .projects-row .coffee-shop{
    background-color: #FFFFFF;
@@ -333,11 +332,74 @@ align-items: center;
      height: 350px;
      margin: 1rem 1rem;
      margin-right: 30rem;
-     
-    
+ }
+ .climb{
+  margin-left: 100px;
+  margin-top: 50px;
+ }
+ .contact h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 80px;
+color: #EEEEEE;
+ }
+ .form{
+    width: 100%;
+ }
+ .message{
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    padding: .1rem .4rem 1rem;    
+    background: rgba(57, 62, 70, 0.5);
+    color: #FFFFFF;
+ }
+ .formEntry{
+    margin: .7rem;
+ }
+ .name{
+    align-items: flex-start;
+        gap: 10px;
+        padding: 1rem 2rem ;
+        width: 288px;
+        height: 59px;
+        background: rgba(57, 62, 70, 0.5);
+        border-radius: 16px;
+ }
+ .email{
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1rem 2rem ;
+    width: 288px;
+    height: 59px;
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+ }
+ .message-btn{
+    margin-top: 1rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    cursor: pointer;
 
  }
-    @media (max-width: 700px) {
+ .message-btn:hover{
+    background-color: #7e91aa;
+    opacity: .5;
+    box-shadow: 0px 0px 80px rgba(66, 82, 82, 0.25);
+ }
+ .contact .contact-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column-reverse;
+ }
+   
+ @media (max-width: 700px) {
         .toggle-button{
             display: flex;
             margin-right: 50px;
@@ -514,4 +576,56 @@ align-items: center;
                 align-items: center;
                 margin-left: 30rem;
                 }
+                .contact .contact-row{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                    flex-direction: column-reverse;
+                 }
+                 .contact h1{
+                    font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 50px;
+                color: #EEEEEE;
+                margin-top: 500px;
+                text-align: center;
+                 }
+                 .climb{
+                    margin-left: 10px;
+                    margin-top: 5px;
+                   }
+                 form{
+                    margin-top: 70px;
+                 }
+                 .message{
+                    margin-top: 20px;
+                    width: 350px;
+                    height: 250px;
+                    border-radius: 10px;
+                    padding: 1rem 2rem 10rem;    
+                    background: rgba(57, 62, 70, 0.5);
+                    color: #FFFFFF;
+                 }
+                 .message-btn{
+                    margin-top: 1rem;
+                    width: 350px;
+                    height: 50px;
+                    border-radius: 10px;
+                    
+                
+                 }
+                 .name{
+                    
+                   
+                        width:340px;
+                        height: 59px;
+                       
+                 }
+                 .email{
+                   
+                    width: 340px;
+                    height: 59px;
+                    
+                 }
     }
