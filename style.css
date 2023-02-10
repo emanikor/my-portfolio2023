@@ -367,6 +367,16 @@ cursor: pointer;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.portfolio h2{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 96px;
+color: #EEEEEE;
+text-align: center;
+}
 .card-1{
  max-width: 300px;
  height: 300px;
