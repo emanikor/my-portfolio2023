@@ -484,7 +484,59 @@ color: #EEEEEE;
     grid-template-columns: repeat(2,1fr);
     flex-direction: column-reverse;
  }
-   
+ .footer .container{
+    text-align: center;
+    justify-content: center;
+    margin-right: 3rem;
+    margin-top: 5rem;
+ }
+ .footer .container .footer-list{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+   .footer-list{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+   }
+   .footer-list li{
+    color: #FFFFFF;
+    text-align: center;
+    list-style: none;
+margin-left: 5rem;
+    margin-right: 3rem;
+   }
+   .footer-list li a{
+    color: #FFFFFF;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+   }
+   .fa-brands{
+    margin-left: 4rem;
+    font-size: 2rem;
+   }
+   .social-media{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3rem;
+  
+
+   }
+   .break1{
+    transform: rotate(-90deg);
+    border: 1px solid  rgba(57, 62, 70, 0.5);
+    
+   }
+   .break{
+    margin-top: 2rem;
+    border: .5px solid  rgba(57, 62, 70, 0.5);
+   }
  @media (max-width: 700px) {
         .toggle-button{
             display: flex;
@@ -730,4 +782,23 @@ color: #EEEEEE;
                     width: 30px;
                     margin-left: 0;
                   }
+                  .footer-list li a{
+                   
+                    margin-right: 1rem;
+                    text-align: center;
+                    font-size: 1.2rem;
+                   }
+                   .fa-brands{
+                    margin-left: 2rem;
+                    font-size: 1rem;
+                   }
+                   .social-media{
+                    margin-top: 2rem;
+                    margin-right: 10rem;
+                   }
+                   .footer-list li{
+                  
+                margin-left: 1rem;
+                    margin-right: 1rem;
+                   }
     }
